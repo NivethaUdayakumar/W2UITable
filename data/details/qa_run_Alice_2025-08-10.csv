@@ -1,0 +1,4 @@
+TestCase,Status,Duration(s)
+LoginFlow,passed,4.2
+CheckoutFlow,failed,6.8
+ProfileUpdate,passed,3.1

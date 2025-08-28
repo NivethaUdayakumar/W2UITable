@@ -1,0 +1,10 @@
+ID,Task Name,Owner,Start Date,End Date,Progress,Status
+1,Import Logs,Alice,2025-08-01,2025-08-03,100,completed
+2,Import Logs,Alice,2025-08-04,2025-08-05,20,running
+3,ETL Job,Bob,2025-08-05,2025-08-06,60,running
+4,ETL Job,Bob,2025-08-07,2025-08-08,100,completed
+5,Report Build,Chan,2025-08-02,2025-08-03,0,failed
+6,Report Build,Chan,2025-08-06,2025-08-08,30,running
+7,QA Run,Alice,2025-08-07,2025-08-09,20,running
+8,QA Run,Alice,2025-08-10,2025-08-12,80,running
+9,QA Run,Alice,2025-08-13,2025-08-14,100,completed

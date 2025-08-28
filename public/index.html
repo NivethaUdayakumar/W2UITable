@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>w2ui Grid (Offline)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- w2ui local (no CDN) -->
+  <link rel="stylesheet" href="./w2ui-2.0.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
+    header { padding: 12px 16px; border-bottom: 1px solid #ddd; font-weight: 600; }
+    #grid { height: calc(100vh - 52px); } /* fill viewport */
+  </style>
+</head>
+<body>
+  <header>Sortable Table with Column Filters (Offline w2ui)</header>
+  <div id="grid"></div>
+
+  <script src="./w2ui-2.0.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

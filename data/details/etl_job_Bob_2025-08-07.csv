@@ -1,0 +1,4 @@
+Step,Duration(s),Result
+Extract,35,ok
+Transform,62,ok
+Load,14,ok
