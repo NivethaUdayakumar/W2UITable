@@ -11,3 +11,20 @@
   display: inline-block; animation: tb-spin 0.8s linear infinite;
 }
 @keyframes tb-spin { to { transform: rotate(360deg); } }
+
+.tb-bc-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fafbfc;
+}
+.tb-breadcrumbs { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tb-crumb { text-decoration: none; color: #0f62fe; cursor: pointer; }
+.tb-crumb.active { color: #111827; font-weight: 600; }
+.tb-crumb-sep { color: #9ca3af; }
+.tb-nav button {
+  border: 1px solid #d1d5db; background: #fff; padding: 6px 10px; border-radius: 6px;
+}
+.tb-nav button[disabled] { opacity: 0.5; cursor: not-allowed; }
